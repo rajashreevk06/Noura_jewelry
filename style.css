@@ -1,0 +1,900 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Garamond";
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.landing-page{
+    width: 100%;
+    height: 900px;
+    background-image: url('./asset/image/landing-page.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.header{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.logo{
+    width: 100px;
+    /* border: 1px solid red; */
+}
+.main ul li a {
+    width: 150px;
+    color: white;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    margin: 50px;
+    font-size: 20px;
+}
+.logo{
+    margin: 10px 50px;
+}
+.home{
+    margin-left: 150px;
+}
+.header a:hover{
+    color: #C09D88;
+    text-decoration: underline;
+}
+.profile{
+    /* border: 1px solid red; */
+    margin-left: 100px;
+}
+.heart{
+    font-size: 20px;
+    padding-left: 40px;
+    color: white;
+}
+.heart i:hover{
+    color: #C09D88;
+}
+.title{
+    width: 550px;
+    color: white;
+    font-size: 35px;
+    /* border: 1px solid red; */
+    margin: 30px;
+    margin-top: 200px;
+}
+.paragraph{
+    width: 500px;
+    color: white;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    margin: 30px;
+}
+.button{
+    font-size: 20px;
+    color: #432818;
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+.button:hover{
+    color: white;
+    background-color: #432818;
+}
+.para{
+    /* margin-top: 250px; */
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+/* section two  */
+
+.section-two{
+    height: 250px;
+    background-color: white;
+}
+.part-two{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 5px;
+    vertical-align: middle;
+}
+.image-contain{
+    margin-left: 50px;
+}
+.text{
+    color: #432818;
+}
+
+/* about us  */
+.aboutus{
+    background-image: url('./asset/image/about-us.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+.aboutus-heading{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.aboutus-para{
+    padding-top: 50px;
+    font-size: 25px;
+    width: 900px;
+    color: white;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+}
+.aboutus-contain{
+    text-align: center;
+}
+
+/* Jewels That Steal the Spotlight */
+
+.jewels{
+    background-color: #FFF9F5;
+    height: 800px;
+    position: relative;
+}
+.jewelone{
+    width: 380px;
+    height: 380px;
+    margin-left: 230px;
+}
+.jeweltwo{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-left: -40px;
+}
+.jewelthree{
+    width: 380px;
+    height: 380px;
+    margin-left: 275px;
+}
+.star-icon{
+    display: inline-block;
+    /* border: 1px solid red; */
+    text-align: center;
+    vertical-align: middle;
+}
+.shopnow{
+    font-size: 20px;
+    color: #432818;
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 3px solid #432818;
+}
+.shopnow:hover{
+    color: white;
+    background-color: #432818;
+}
+.jewels-text-one{
+    color: #432818;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.jewels-text-two{
+    text-align: center;
+    color: #432818;
+}
+.jewels-text-two h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.jewels-text-two h1{
+    margin-bottom: 10px;
+}
+.jewels-text-two h3{
+    margin-bottom: 10px;
+
+}
+/* popular categories  */
+
+.popular-categories-one{
+    color: #432818;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FAFAFA;
+    height: 500px;
+}
+.categories-contain{
+    display: inline-block;
+    padding: 30px;
+    /* border: 1px solid red; */
+}
+.categories-contain h3{
+    color: #432818;
+    margin-top: 20px
+}
+
+/* jewlry ads  */
+ .ad{
+    background-image: url('./asset/image/ads.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+ }
+ .ad-text-one{
+    color: white;
+    text-align: center;
+ }
+ .ad-text-two{
+    color: white;
+    text-align: center;
+ }
+ .ad-text{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+    text-align: center;
+ }
+ .ad-text-one{
+    margin-top: 100px;
+    margin-left: 200px;
+ }
+  .ad-text-two{
+    margin-top: 100px;
+    margin-left: 750px;
+ }
+
+ /* NEW DIAMOND NECKLACE COLLECTIONS */
+ .new-diamond-necklace{
+    text-align: center;
+    color: #432818;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #EAE0D6;
+    height: 850px;
+ }
+ .new-diamond-necklace-image{
+    padding: 50px;
+ }
+
+ /* trendy collections  */
+ .trendy-collections{
+    text-align: center;
+    color: #432818;
+    background-color: #FFF9F5;
+    padding-top: 50px;
+    height: 650px;
+ }
+ .trendy-collections-image{
+    width: 300px;
+    height: 390px;
+    margin-top: 50px;
+    border-radius: 20px 20px 0px 0px;
+ }
+ .trendy-collections-text{
+    position: relative;
+    margin-top: -10px;
+    width: 300px;
+    color: white;
+    background-color: #432818;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 0px 0px 20px 20px;
+ }
+  .trendy-collections-text:hover{
+    background-color: #D4A386;
+    color: #432818;
+  }
+ .trendy-collections-container{
+    display: inline-block;
+    padding: 10px;
+ }
+ .trendy-collections-text span{
+    margin-left: 150px;
+ }
+
+ /* new arrivals  */
+ .contain{
+    padding-top: 100px;
+    background-color: #FFF9F5;
+    height: 750px;
+ }
+ .new-arrivals-contain{
+    text-align: center;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+    /* bottom: 0; */
+    margin-bottom: 550px;
+    margin-left: 200px;
+ }
+ .new-arrivals-contain h1{
+    color: #432818;
+    font-size: 45px;
+    /* border: 1px solid red; */
+    padding: 10px;
+ }
+ .new-arrivals-contain p{
+    color: #432818;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    padding: 10px;
+ }
+ .new-arrivals-contain button{
+    margin: 10px;
+ }
+
+ .new-arrivals{
+    display: inline-block;
+    position: relative;
+    
+ }
+.new-arrivals-one{
+    width: 518px;
+}
+.arrivals{
+    margin-left: 100px;
+}
+.new-arrivals-two{
+    position: absolute;
+    margin-left: 400px;
+    width: 241px;
+    height: 250px;
+    top: 0;
+    margin-top: 150px;
+    transform: rotate(17.79deg);
+}
+.new-arrivals-three{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin-left: 480px;
+    margin-top: 320px;
+    width: 193px;
+    height: 200px;
+    transform: rotate(-12.15deg);
+}
+.new-arrivals-star-icon-one{
+    width: 40px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.new-arrivals-star-icon-two{
+    width: 30px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 80px;
+}
+.new-arrivals-star-icon-three{
+    width: 30px;
+    position: absolute;
+    margin-top: 410px;
+    left: 0;
+    margin-left: 450px;
+}
+/* NEW DIAMOND RING COLLECTIONS */
+.new-diamond-ring-collections-contain{
+    text-align: center;
+    color: #432818;
+    padding: 50px;
+}
+.ring{
+    width: 300px;
+    border-radius: 20px;
+}
+.ring-contain{
+    display: inline-block;
+    margin: 10px;
+    transition: transform .2s;
+}
+.ring-contain:hover {
+    opacity: 0.5;
+    transform: rotate(360deg);
+}
+.ring-contain-one{
+    margin-left: 110px;
+}
+.ring-contain-text{
+    color: white;
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    margin-top: -50px;
+}
+.ring-contain-text span{
+    margin-left: 200px;
+}
+.new-diamond-ring-collections{
+    background-color: #ffffff;
+    height: 550px;
+}
+.ring-contain i{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: -280px;
+    margin-left: 250px;
+}
+/* our-favorite-design */
+.our-favorite-design{
+    background-image: url('./asset/image/our-favorite-design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 815px;
+    background-attachment: fixed;
+}
+.our-favorite-design h1{
+    color: white;
+    width: 200px;
+    /* border: 1px solid red; */
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.our-favorite-design p{
+    color: white;
+    width: 600px;
+    /* border: 1px solid red; */
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.our-favorite-design button{
+    font-size: 20px;
+    color: #432818;
+    background-color: white;
+    border: none;
+    width: 450px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.our-favorite-design button:hover{
+    color: white;
+    background-color: #432818;
+}
+
+.favorite-design{
+    width: 10px;
+    /* border: 2px solid red; */
+    padding-left: 800px;
+    padding-top: 200px;
+}
+
+/* standard-you-deserve */
+
+.standard-you-deserve{
+    text-align: center;
+    color: #432818;
+    padding: 50px;
+}
+.standard{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.standard img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.standard h1{
+    color: #432818;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.standard p{
+    width: 400px;
+    color: #432818;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.standard-quality{
+    margin-left: 100px;
+}
+.the-Standard-You-Deserve{
+   height: 450px;
+}
+/* customer feedback */
+.feedback{
+    text-align: center;
+    color: #432818;
+    padding: 50px;
+}
+.profile-review{
+    position: relative;
+    margin-top: -50px;
+    width: 120px;
+    border-radius: 50%;
+    border: 4px white solid;
+}
+.review{
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    border: 4px #432818 solid;
+    text-align: center;
+    margin: 20px;
+}
+.review h2{
+    color: #432818;
+    text-align: center;
+    padding: 20px;
+}
+.review p{
+    color: #432818;
+    text-align: center;
+    font-size: 17px;
+    margin: 0 20px;
+    width: 250px;
+    /* border: 1px solid green; */
+}
+.review i{
+    color: #432818;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.review-content{
+    margin-left: 250px;
+}
+
+/* BLOG */
+.blog{
+    background-color: #EDEAE8;
+    width:1200px;
+    height: 600px;
+    border-radius: 30px;
+    margin: 0 150px;
+    margin-bottom: 100px;
+}
+.blog-image{
+    width: 500px;
+    margin: 50px 50px 0 50px;
+    border-radius: 20px;
+}
+.blog-content p{
+    width: 500px;
+}
+.blog-content{
+    display: inline-block;
+    vertical-align: middle;
+}
+.blog-post{
+    text-align: center;
+    color: #432818;
+    padding: 50px;
+}
+.blog-content-text h1{
+    color: #432818;
+    margin-bottom: 20px;
+}
+.blog-content-text h3{
+    color: #432818;
+    margin-bottom: 30px;
+}
+.blog-content-text p{
+    color: #432818;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+.blog-button{
+    font-size: 20px;
+    color: #432818;
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.blog-button:hover{
+    color: white;
+    background-color: #432818;
+}
+/* footer */
+
+.footer{
+    background-image: url('./asset/image/footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+    color: white;
+}
+.newsletter{
+    display: inline-block;
+}
+.footer-help h1{
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+.footer-help ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.footer-help ul li a{
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-help{
+    display: inline-block;
+    width: 270px;
+}
+.footer-contain{
+    margin-left: 200px;
+}
+.footer-newsletter input{
+    padding: 15px;
+    border-radius: 20px;
+    color: #432818;
+    border: none;
+    width: 300px;
+    margin-right: 250px;
+
+}
+.footer-newsletter button{
+    color: #432818;
+    background-color: white;
+    border: none;
+    padding: 20px;
+    width: 250px;
+    border-radius: 50px;
+}
+.footer-newsletter button:hover{
+    color: white;
+    background-color: #432818;
+}
+.footer-newsletter{
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer-icon {
+    display: inline-block;
+}
+.footer-icon i{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.footer-icon i:hover{
+    color: #C09D88;
+}
+.ruler{
+    width: 1100px;
+    margin-left: 180px;
+}
+.footer-social-media{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.footer-social-media h1{
+    font-size: 20px;
+}
+.footer-help ul li a:hover{
+    color: #ffec20;
+}
+.up-arrow{
+    position: fixed;
+    text-align: right;
+    font-size: 50px;
+    right: 0;
+    bottom: 0;
+    margin-right: 50px;
+}
+.fa-arrow-circle-up{
+    color: #C09D88;
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    .resp-home{
+        margin-left: -80px;
+    }
+    .resp-logo img{
+        /* width: 100%; */
+        background-size: cover;
+        margin-left: -10px;
+    }
+    .resp-header{
+        margin-left: -70px;
+    }
+    /* section-two */
+
+    .resp-section-two{
+        background-color: white;
+        height: 750px;
+    }
+
+    .resp-part-two{
+        display: inline-block;
+        margin-left: 180px;
+    }
+    .resp-aboutus-para{
+        width: 650px;
+        font-size: 19px;
+    }
+/* Jewels That Steal the Spotlight */
+    .resp-jewels{
+        height: 650px;
+    }
+    .resp-jewelone{
+        width: 260px;
+        height: 260px;
+        margin-left: 30px;
+    }
+    .resp-jeweltwo{
+        width: 230px;
+        height: 230px;
+    }
+    .resp-jewelthree{
+        width: 260px;
+        height: 260px;
+        margin-left: 160px;
+    }
+ /* POPULAR CATEGORIES  */
+    .resp-popular-categories-one{
+        background-color: #FAFAFA;
+        height: 800px;
+    }
+/* NEW DIAMOND NECKLACE COLLECTIONS  */
+    .resp-trendy-collections{
+        background-color: #fff;
+        height: 1200px;
+    }
+ /* NEW DIAMOND NECKLACE COLLECTIONS */
+    .resp-new-diamond-necklace{
+        background-color: #EAE0D6;
+        height: 550px;
+    }
+    .resp-new-diamond-collections-one{
+        width: 200px;
+    }
+/* ads  */
+    .resp-ad-text-one{
+        margin-left: 50px;
+    }
+    .resp-ad-text-two{
+        margin-left: 250px;
+    }
+/* new-arrivals */
+    .resp-new-arrivals-contain{
+        /* border: 1px solid red; */
+        text-align: center;
+        margin-left: 266px;
+        
+    }
+    .resp-new-arrivals-contain h1{
+        font-size: 25px;
+    }
+    .resp-new-arrivals-contain p{
+        font-size: 10px;
+    }
+    .resp-new-arrivals-one{
+        width: 218px;
+        /* border: 1px solid red; */
+    }
+    .resp-new-arrivals-two{
+        width: 100px;
+        height: auto;
+        margin-left: 180px;
+        margin-top: 50px;
+    }
+    .resp-new-arrivals-three{
+        width: 73px;
+        height: auto;
+        margin-left: 205px;
+        margin-top: 143px;
+    }
+    .resp-arrivals{
+        position: absolute;
+        margin-left: -230px;
+        margin-top: 220px;
+
+
+    }
+/* NEW DIAMOND RING COLLECTIONS */
+    .resp-ring-contain-one{
+        margin-left: 70px;
+    }
+    .resp-new-diamond-ring-collections{
+        height: 900px;
+    }
+/* OUR FAVORITE DESIGN */
+    .resp-our-favorite-design{
+        background-size: cover;
+    }
+    .resp-our-favorite-design h1{
+       font-size: 20px;
+       width: 300px;
+       margin-top: -100px;
+       margin-left: -450px;
+    }
+    .resp-our-favorite-design p{
+        width: 350px;
+        /* border: 1px solid red; */
+        font-size: 25px;
+        margin-left: -485px;
+        text-align: center;
+    }
+    .resp-our-favorite-design button{
+        margin-left: -460px;
+        width: 280px;
+        font-size: 10px;
+    }
+/* THE STANDARD YOU DESERVE  */
+    .resp-the-Standard-You-Deserve{
+        background-color: white;
+        height: 1000px;
+    }
+    .resp-standard-quality{
+        margin-left: 190px;
+    }
+/* CUSTOMER FEEDBACK */
+    .resp-customer-feedback{
+        background-color: #ffffff;
+        height: 1400px;
+    }
+    .resp-review-content{
+        margin-left: 250px;
+        margin-top: 40px;
+    }
+
+/* blog  */
+    .resp-blog-image{
+        width: 200px;
+    }
+    .resp-blog-post{
+        background-color: #fff;
+        height: 650px;
+    }
+    .resp-blog{
+        background-color: #EDEAE8;
+        width: 700px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .resp-blog-content-text h1{
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    .resp-blog-content-text h3{
+        font-size: 15px;
+    }
+    .resp-blog-content-text p{
+        font-size: 15px;
+        width: 350px;
+    }
+    .resp-favorite-design{
+        padding-left: 750px;
+    }
+/* footer  */
+    .resp-footer-help{
+        display: block;
+        margin-left: 300px;
+        padding: 10px;
+    }
+    .resp-footer{
+        height: 1400px;
+    }
+    .resp-newsletter{
+        margin-left: -200px;
+    }
+    .resp-ruler{
+        width: 250px;
+        margin-left: 280px;
+    }
+    .resp-footer-social-media{
+        margin-left: 310px;
+    }
+    .resp-decor-cont{
+        position: relative;
+        height: 640px;
+    }
+}
